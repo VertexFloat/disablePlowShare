@@ -2,6 +2,7 @@ name: "🕷️ Bug report"
 description: Report errors or unexpected behavior
 labels:
 - bug
+type: "Bug"
 assignees:
 - 4c65736975
 body:
