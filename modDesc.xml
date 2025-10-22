@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="79">
+<modDesc descVersion="103">
   <author>VertexFloat</author>
   <version>1.0.0.0</version>
   <title>
-    <en>MOD_TITLE</en>
-    <de>MOD_TITLE</de>
-    <fr>MOD_TITLE</fr>
-    <pl>MOD_TITLE</pl>
+    <en>Disable Plow Share</en>
+    <de>Pflugschar Deaktivieren</de>
+    <fr>Désactiver Le Soc De Charrue</fr>
+    <pl>Wyłącz Bruzdę</pl>
   </title>
   <description>
-    <en><![CDATA[
-For more information, full changelog, help or to report a bug, please visit <a href="https://github.com/VertexFloat/MOD_NAME">GitHub</a>.]]></en>
-    <de><![CDATA[
-Weitere Informationen, ein vollständiges Änderungsprotokoll, Hilfe oder die Möglichkeit, einen Fehler zu melden, finden Sie unter <a href="https://github.com/VertexFloat/MOD_NAME">GitHub</a>.]]></de>
-    <fr><![CDATA[
-Pour plus d'informations, le journal des modifications complet, de l'aide ou pour signaler un bug, veuillez visiter <a href="https://github.com/VertexFloat/MOD_NAME">GitHub</a>.]]></fr>
-    <pl><![CDATA[
-Po więcej informacji, pełny dziennik zmian, pomoc lub zgłoszenie błędu, odwiedź stronę <a href="https://github.com/VertexFloat/MOD_NAME">GitHub</a>.]]></pl>
+    <en><![CDATA[Thanks to this modification you can disable plow share whenever you want.
+
+Enable/Disable plow share - "z" key (default)
+
+For more information, full changelog, help or to report a bug, please visit <a href="https://github.com/VertexFloat/disablePlowShare">GitHub</a>.]]></en>
+    <de><![CDATA[Dank dieser Änderung können Sie die Pflugschar jederzeit deaktivieren.
+
+Pflugschar aktivieren/deaktivieren – Taste „z“ (Standard)
+
+Weitere Informationen, ein vollständiges Änderungsprotokoll, Hilfe oder die Möglichkeit, einen Fehler zu melden, finden Sie unter <a href="https://github.com/VertexFloat/disablePlowShare">GitHub</a>.]]></de>
+    <fr><![CDATA[Grâce à cette modification, vous pouvez désactiver le soc à tout moment.
+
+Activer/Désactiver le soc - Touche "z" (par défaut)
+
+Pour plus d'informations, le journal des modifications complet, de l'aide ou pour signaler un bug, veuillez visiter <a href="https://github.com/VertexFloat/disablePlowShare">GitHub</a>.]]></fr>
+    <pl><![CDATA[Dzięki tej modyfikacji możesz wyłączyć bruzdę, kiedy tylko chcesz.
+
+Włącz/wyłącz bruzdę – klawisz „z” (domyślnie)
+
+Po więcej informacji, pełny dziennik zmian, pomoc lub zgłoszenie błędu, odwiedź stronę <a href="https://github.com/VertexFloat/disablePlowShare">GitHub</a>.]]></pl>
   </description>
-  <iconFilename>icon_MOD_NAME.png</iconFilename>
+  <iconFilename>icon_disablePlowShare.png</iconFilename>
   <multiplayer supported="true"/>
 
   <l10n>
-    <text name="">
-      <en></en>
-      <de></de>
-      <fr></fr>
-      <pl></pl>
+    <text name="action_enablePlowShare">
+      <en>Enable plow share</en>
+      <de>Pflugschar aktivieren</de>
+      <fr>Activer le soc de charrue</fr>
+      <pl>Włącz bruzdę</pl>
+    </text>
+    <text name="action_disablePlowShare">
+      <en>Disable plow share</en>
+      <de>Pflugschar deaktivieren</de>
+      <fr>Désactiver le soc de charrue</fr>
+      <pl>Wyłącz bruzdę</pl>
     </text>
   </l10n>
 
-  <storeItems>
-    <storeItem xmlFilename="STORE_XML_PATH"/>
-  </storeItems>
-
   <extraSourceFiles>
-    <sourceFile filename="LUA_PATH"/>
+    <sourceFile filename="src/main.lua"/>
   </extraSourceFiles>
 </modDesc>

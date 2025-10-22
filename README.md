@@ -1,33 +1,35 @@
 <div id="top"></div>
 <br/>
 <div align="center">
-  <a href="https://github.com/VertexFloat/MOD_NAME">
+  <a href="https://github.com/VertexFloat/disablePlowShare">
     <img src="screenshots/icon.png" alt="Logo" width="128" height="128">
   </a>
-  <h3>MOD_NAME</h3>
+  <h3>Disable Plow Share</h3>
   <p>
     Farming Simulator Modification
     <br />
     <br />
-    <a href="https://github.com/VertexFloat/MOD_NAME/issues">Report Bug</a>
+    <a href="https://github.com/VertexFloat/disablePlowShare/issues">Report Bug</a>
     ·
-    <a href="https://github.com/VertexFloat/MOD_NAME/issues">Request Feature</a>
+    <a href="https://github.com/VertexFloat/disablePlowShare/issues">Request Feature</a>
     ·
-    <a href="https://github.com/VertexFloat/MOD_NAME/blob/main/CHANGELOG.md">Changelog</a>
+    <a href="https://github.com/VertexFloat/disablePlowShare/blob/main/CHANGELOG.md">Changelog</a>
   </p>
 </div>
 
 ## About the project
 
-<img src="screenshots/screenShot (1).png" alt="screenshot">
+<img src="screenshots/screenshot (1).png" alt="screenshot">
 
-MOD_DESCRIPTION
+Thanks to this modification you can disable plow share whenever you want.
+
+Enable/Disable plow share - "z" key (default)
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
 ## Getting started
 
-If you want to install latest official version, you can [download](MOD_LINK) it like other mods.
+If you want to install latest official version, you can [download](https://www.farming-simulator.com/mod.php?mod_id=338819&title=fs2025) it like other mods.
 <br/>
 
 ### Prerequisites
@@ -39,17 +41,15 @@ If you want to install latest official version, you can [download](MOD_LINK) it 
 
 ## Usage
 
-<img src="screenshots/screenShot (2).png" alt="screenshot">
-<img src="screenshots/screenShot (3).png" alt="screenshot">
-<img src="screenshots/screenShot (4).png" alt="screenshot">
-<img src="screenshots/screenShot (5).png" alt="screenshot">
-<img src="screenshots/screenShot (6).png" alt="screenshot">
+<img src="screenshots/screenshot (2).png" alt="screenshot">
+<img src="screenshots/screenshot (3).png" alt="screenshot">
+<img src="screenshots/screenshot (4).png" alt="screenshot">
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
 ## License
 
-Distributed under the GPL-3.0 license. See [LICENSE](https://github.com/VertexFloat/MOD_NAME/blob/main/LICENSE) for more information.
+Distributed under the GPL-3.0 license. See [LICENSE](https://github.com/VertexFloat/disablePlowShare/blob/main/LICENSE) for more information.
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
