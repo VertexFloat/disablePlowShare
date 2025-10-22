@@ -39,7 +39,7 @@ Plow.actionTogglePlowShare = function(self, actionName, inputValue, callbackStat
   local actionEvent = spec.actionEvents[InputAction.IMPLEMENT_EXTRA4]
 
   if actionEvent ~= nil then
-    local text = bEnabled and spec.texts.enablePlowShare or spec.texts.disablePlowShare
+    local text = bEnabled and spec.texts.disablePlowShare or spec.texts.enablePlowShare
 
     g_inputBinding:setActionEventText(actionEvent.actionEventId, text)
   end
